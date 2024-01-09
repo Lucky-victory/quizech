@@ -6,6 +6,9 @@
   "repository": "https://github.com/lucky-victory/quizech.com",
   "author": "Lucky Victory",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch ./src/index.ts"
+  },
   "dependencies": {
     "@hono/node-server": "^1.4.0",
     "hono": "^3.12.0"
