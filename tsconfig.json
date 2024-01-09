@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "jsxImportSource": "hono/jsx",
+    "resolveJsonModule": true,
+    "paths": {
+      "@_/*": ["./*"],
+      "@/*": ["./src/*"],
+      "@/svs/*": ["./src/services/*"],
+      "@/ctrls/*": ["./src/controllers/*"]
+    }
+  }
+}

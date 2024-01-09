@@ -1,0 +1,16 @@
+{
+  "name": "quizech",
+  "version": "1.0.0",
+  "description": "A quiz app for programming",
+  "main": "index.ts",
+  "repository": "https://github.com/lucky-victory/quizech.com",
+  "author": "Lucky Victory",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.4.0",
+    "hono": "^3.12.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0"
+  }
+}
