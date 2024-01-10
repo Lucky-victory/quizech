@@ -1,4 +1,4 @@
-import { CategoryHandler } from "@_/src/handlers/category";
+import { CategoryHandler } from "@/handlers/category";
 import { Hono } from "hono";
 const app = new Hono();
 

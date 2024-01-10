@@ -1,4 +1,4 @@
-import { QuizHandler } from "@_/src/handlers/quiz";
+import { QuizHandler } from "@/handlers/quiz";
 import { Hono } from "hono";
 const app = new Hono();
 // Quiz routes

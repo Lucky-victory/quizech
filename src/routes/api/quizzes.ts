@@ -1,8 +1,9 @@
+import { QuizzesHandler } from "@/handlers/quizzes";
 import { Hono } from "hono";
 const app = new Hono();
 // Quizzes routes
 app
-  .get("/:category_id?", (c) => c.text("quizzes get"))
-  .post("/", (c) => c.text("quizzes add"));
+  .get("/:category_id?", QuizzesHandler.getAll)
+  .post("/", QuizzesHandler.create);
 
 export const quizzesRoutes = app;

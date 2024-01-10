@@ -1,4 +1,4 @@
-import { AuthHandler } from "@_/src/handlers/auth";
+import { AuthHandler } from "@/handlers/auth";
 import { Hono } from "hono";
 const app = new Hono();
 // Auth routes

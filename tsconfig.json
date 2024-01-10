@@ -6,8 +6,8 @@
     "jsxImportSource": "hono/jsx",
     "resolveJsonModule": true,
     "paths": {
+        "@/*": ["./src/*"],
       "@_/*": ["./*"],
-      "@/*": ["./src/*"],
       "@/svs/*": ["./src/services/*"],
       "@/ctrls/*": ["./src/controllers/*"]
     }
